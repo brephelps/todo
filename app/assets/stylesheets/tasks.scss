@@ -174,15 +174,9 @@ label[for='toggle-all'] {
 .todo-list li .toggle {
   text-align: center;
   width: 40px;
-  /* auto, since non-WebKit browsers doesn't support input styling */
-  height: auto;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
-  border: none; /* Mobile Safari */
-  -webkit-appearance: none;
-  appearance: none;
+  margin-left: 15px;
+  margin-top: 10px;
 }
 
 .todo-list li .toggle:after {
